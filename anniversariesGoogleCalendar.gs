@@ -127,7 +127,7 @@ function getAllContactsEvents() {
                 var year = birthday.date.year || currentYear;
                 var eventDate = new Date(year, birthday.date.month - 1, birthday.date.day)
                 contactsEvents.push({
-                  title: "Birthday: " + name,
+                  title: name + " hat Geburtstag",
                   date: eventDate,
                   contactId: contact.resourceName,
                 });
